@@ -1,5 +1,7 @@
 # IntellijIdea files
 /.idea
+/.build
+/.target
 
 # Compiled class file
 *.class
