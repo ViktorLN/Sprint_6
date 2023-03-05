@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="AnimalTest" time="0.018" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="AnimalTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -47,7 +47,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 verify"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,10 +65,6 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="AnimalTest" name="getFoodReturnListOfStringTest[0]" time="0.017"/>
-  <testcase classname="AnimalTest" name="getFoodIncorrectValueShowErrorTest[0]" time="0.001"/>
-  <testcase classname="AnimalTest" name="getFamilyReturnStringTest[0]" time="0"/>
-  <testcase classname="AnimalTest" name="getFoodReturnListOfStringTest[1]" time="0"/>
-  <testcase classname="AnimalTest" name="getFoodIncorrectValueShowErrorTest[1]" time="0"/>
-  <testcase classname="AnimalTest" name="getFamilyReturnStringTest[1]" time="0"/>
+  <testcase classname="AnimalTest" name="getFoodIncorrectValueShowErrorTest" time="0.012"/>
+  <testcase classname="AnimalTest" name="getFamilyReturnStringTest" time="0"/>
 </testsuite>

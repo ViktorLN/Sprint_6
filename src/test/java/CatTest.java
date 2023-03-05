@@ -15,7 +15,7 @@ public class CatTest {
         Cat cat = new Cat(feline);
         String expected = "Мяу";
         String actual = cat.getSound();
-        Assert.assertEquals("Кошка такого не говорила",expected,actual);
+        Assert.assertEquals("Кошка такого не говорила", expected, actual);
     }
 
     @Test
@@ -25,7 +25,7 @@ public class CatTest {
         List<String> expected = Arrays.asList("Животные", "Птицы", "Рыба");
         List<String> actual;
         actual = cat.getFood();
-        Assert.assertEquals("Кошка такое не ест",expected,actual);
+        Assert.assertEquals("Кошка такое не ест", expected, actual);
     }
 
     // тест с моками на проверку работы самого метода
